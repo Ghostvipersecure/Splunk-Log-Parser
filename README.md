@@ -1,0 +1,1 @@
+This Bash script is designed to filter security-related events from system logs and forward them to Splunk using the HTTP Event Collector (HEC). It filters specific security events such as failed login attempts and HTTP errors from log files like auth.log and apache2/access.log, and then sends the filtered logs to Splunk for centralized monitoring and analysis.
